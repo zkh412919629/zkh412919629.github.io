@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>周凯华</title>
+    <style type="text/css">
+      .header-zhou {
+        background-image: url('./images/bg.png');
+      }
+      .cage-photo {
+        margin-top: 10px; height: 52px; width: 52px;
+      }
+      .bg-gray {
+        background-color: #D2D2D2;
+      }
+    </style>
+  </head>
+  <body class="header-zhou">
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">剧照</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="myCarousel" class="carousel slide">
+          <!-- 轮播（Carousel）指标 -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+          </ol>
+          <!-- 轮播（Carousel）项目 -->
+          <div class="carousel-inner">
+            <div id=1 class="item active">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d69264dbbe.jpg">
+            </div>
+            <div id=2 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691aeb193.jpg">
+            </div>
+            <div id=3 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691b18a9e.jpg">
+            </div>
+            <div id=4 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691ac5c74.jpg">
+            </div>
+            <div id=5 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6919ba1e6.jpg">
+            </div>
+            <div id=6 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691a0b81a.jpg">
+            </div>
+            <div id=7 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691930094.jpg">
+            </div>
+            <div id=8 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6915dd115.png">
+            </div>
+            <div id=9 class="item">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6915787b9.jpg">
+            </div>
+          </div>
+          <!-- 轮播（Carousel）导航 -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
+
+  <div class="sticky-top shadow-sm mb-5 bg-gray rounded">
+    <a class="photo-icon position-relative" href="#" id="home">
+      <span class="img-circle cage-photo" style="margin-top: 10px; height: 52px; width: 52px;">
+        <img class="" src="./images/cage.jpeg" style="height: 52px; width: 52px; margin-left: 15px">
+      </span>
+      <span class="cage" style="margin-left: 5px;">周凯华 (Kevin Chow)</span>
+    </a>
+  </div>
+  <div class="container-fluid">
+    <div class="row" style="background-color: #000">
+      <img src="./images/liantang-poster.jpeg" class="img-responsive d-block d-sm-none" >
+      <video class="embed-responsive-item d-none d-sm-block" poster="./images/liantang-poster.jpeg" src="https://qiniu-xpc10.xpccdn.com/5d9d689fc1376.mp4" preload="none" controls="controls" style="clear:both;display:block;margin:auto"></video>
+    </div>
+    <div class="row" style="margin-left: 5px; margin-top: 10px">
+      <div class="col-md-8 movie-related">
+        <div class="row">
+          <h4>剧情简介</h4>
+          <div id="show-desc" class="d-block d-sm-none" onclick="showDesc(this)"> &nbsp &nbsp>> </div>
+        </div>
+        <div id="desc" class="d-none d-sm-block">
+        <p>
+          <b>制作公司：</b>上海典汇文化</br>
+          <b>片名提写：</b>甘泉
+          </br>
+          <b>编剧：</b>黄明新
+          </br>
+          <b>导演：</b>周凯华
+          </br>
+          <b>制片：</b>黄蔚
+          </br>
+          <b>策划：</b>陆华、张鹏
+          </br>
+          <b>摄影：</b>郭卜涛
+          </br>
+          <b>灯光：</b>成绍锋
+          </br>
+          <b>录音：</b>徐传刚
+          </br>
+          <b>航拍：</b>郭建国
+          </br>
+          <b>服化：</b>丁丁
+          </br>
+          <b>场记：</b>倪耀
+          </br>
+          <b>调色：</b>上海御彩
+          </br>
+          <b>演员：</b>赛开源、陈星梦、唐浩、王无暇、范林元、冯小英
+          </br>
+          2019上海练塘“茭白节”开场影片。以微电影形式诠释练塘人文历史和江南水乡“岁月静好”的美丽故事。</p>
+        </div>
+        <div class="row movie-photo">
+          <div class="column">
+          <h4>剧照</h4>
+          <div class="row"> <!-- style="margin-left: 5px" -->
+            <div class="column col-xs-4">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d69264dbbe.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(1)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691ac5c74.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(4)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691930094.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(7)">
+            </div>
+            <div class="column col-xs-4">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691aeb193.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(2)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6919ba1e6.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(5)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6915dd115.png@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(8)">
+            </div>
+            <div class="column col-xs-4">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691b18a9e.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(3)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d691a0b81a.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(6)">
+              <img src="https://cs.xinpianchang.com/uploadfile/stills/2019/10/09/5d9d6915787b9.jpg@180w_180h_1e_1c" class="thumbnail" data-toggle="modal" data-target="#myModal" style="cursor:pointer" onclick="activateItem(9)">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 movies">
+        <h4>作品列表</h1>
+        <ul class="list-group">
+          <li class="list-group-item header-zhou">
+            <a href="./movies/shuiwumv.html">
+              <div class="row">
+                <div class="col-md-8">
+                  <img src="./images/shuiwu-poster.jpeg">
+                </div>
+                <b>《新说唱》MV</b>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item header-zhou">
+            <a href="./movies/linnei.html">
+              <div class="row">
+                <div class="col-md-8">
+                  <img src="./images/linnei-poster.jpeg">
+                </div>
+                <b>《妻子的黑暗料理》</b>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item header-zhou">
+            <a href="./movies/meida.html">
+              <div class="row">
+                <div class="col-md-8">
+                  <img src="./images/meida-poster.jpeg">
+                </div>
+                <b>《雾霾退散》</b>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item header-zhou">
+            <a href="./movies/meida.html">
+              <div class="row">
+                <div class="col-md-8">
+                  <img src="./images/sunshare-poster.jpeg">
+                </div>
+                <b>《尚信资本·宣传片》</b>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <a href="./movies/movie-list.html"><h5>查看更多 &nbsp &nbsp>></h5></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="height: 100px"></div>
+  <script type="text/javascript">
+function showDesc(obj){
+  var desc = document.getElementById("desc");
+  if (desc.classList.contains("d-none") & desc.classList.contains("d-sm-block")){
+    desc.classList.remove("d-none");
+    desc.classList.add("d-block");
+    obj.innerHTML=" &nbsp &nbsp <<"
+  }else{
+    desc.classList.remove("d-block");
+    desc.classList.add("d-none");
+    obj.innerHTML=" &nbsp &nbsp >>"
+  }
+}
+function activateItem(id){
+  var items = document.getElementById("myCarousel").children[0].children;
+  Array.prototype.forEach.call(items, item =>{
+    if (item.getAttribute("data-slide-to") == id){
+      item.classList.add('active');
+      console.log(1)
+    }else{
+      item.classList.remove('active');
+    }
+  });
+  var imgs = document.getElementById("myCarousel").children[1].children;
+  Array.prototype.forEach.call(imgs, item =>{
+    if (item.getAttribute("id") == id){
+      item.classList.add('active');
+    }else{
+      item.classList.remove('active');
+    }
+  });
+}
+</script>
+</body>
+</html>
